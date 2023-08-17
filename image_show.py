@@ -57,5 +57,6 @@ for i in range(len(submit_data)):
     save_path = os.path.join('./show7', f'{img_id}.png')
     plt.savefig(save_path)
     plt.close()
+    
 
 print("이미지와 분할된 마스크를 show 폴더에 저장하였습니다.")
